@@ -1,10 +1,12 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
 }
-
+body{
+ background-color: darkslategray;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -33,7 +35,7 @@
   }
 }
 
-.card {
+.List, .Feat {
   padding: 2em;
   width: 300px;
   border: 1px solid #ccc;
@@ -44,8 +46,17 @@
   flex-direction: column;
   align-items: center;
   color: #fff;
+  background-color: midnightblue;
 }
 
 .read-the-docs {
   color: #888;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+li {
+  list-style: none;
+  padding-right: 2.5em;
 }
